@@ -1,6 +1,6 @@
 # Rafail's Museum App
 
-Welcome to Rafail's Museum App! This app is your gateway to exploring fascinating information about animals, dinosaurs, planets, and sculptures all in one place. Developed as a college project, this app combines the creative vision of Rafail and the design expertise of a friend in Figma, brought to life through the Flutter framework. Whether you're a curious learner or a passionate enthusiast, this app promises to deliver an immersive experience filled with knowledge and wonder.
+Welcome to Rafail's Museum App! This app is your gateway to exploring fascinating information about animals, dinosaurs, planets, and sculptures all in one place. Developed as a college project, this app combines the technical ability of Rafail to implement the beatiful design using flutter and the design expertise of a friend in Figma, brought to life through the Flutter framework. Whether you're a curious learner or a passionate enthusiast, this app promises to deliver an immersive experience filled with knowledge and wonder.
 
 ## Features
 
