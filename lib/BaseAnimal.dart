@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'animals.dart';
 
 class AnimalScreen extends StatelessWidget {
   final String backgroundImagePath;
@@ -20,8 +21,8 @@ class AnimalScreen extends StatelessWidget {
     required this.animalClassification,
     required this.animalDescription,
     required this.imageTopPosition,
-    this.imageLeftPosition=0,
-    this.imageRightPosition=0,
+    this.imageLeftPosition = 0,
+    this.imageRightPosition = 0,
     required this.screenHeight,
     required this.whiteContainerHeight,
   }) : super(key: key);
@@ -56,6 +57,22 @@ class AnimalScreen extends StatelessWidget {
                     right: imageRightPosition,
                     child: Image.asset(
                       animalImagePath,
+                    ),
+                  ),
+                  // Add the arrow button in the top-left corner
+                  Positioned(
+                    top: 16,
+                    left: 16,
+                    child: IconButton(
+                      icon: Image.asset('assets/images/arrow.png'), // Change to your arrow icon path
+                      iconSize: 24,
+                      onPressed: () {
+                        // Navigate to AnimalPage when pressed
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => AnimalPage()),
+                        );
+                      },
                     ),
                   ),
                   Positioned(

@@ -13,8 +13,8 @@ class KoalaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
-      animalImagePath: "assets/images/Animals/koala.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
+      animalImagePath: "assets/images/Animals/Koala.png",
       animalName: "Koala Bear",
       animalClassification: "Class: Mammalia",
       animalDescription: """ The koala (Phascolarctos cinereus), sometimes called the koala bear, is an arboreal herbivorous marsupial native to Australia and the only extant member of the family Phascolarctidae. Found in Queensland, New South Wales, Victoria, and South Australia, koalas are recognizable by their stout, tailless bodies, large heads with round, fluffy ears, and large, dark noses. They measure 60–85 cm (24–33 in) in length and weigh 4–15 kg (9–33 lb). Their fur color ranges from silver grey to chocolate brown, with northern populations typically smaller and lighter.

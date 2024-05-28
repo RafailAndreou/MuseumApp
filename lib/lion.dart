@@ -48,7 +48,7 @@ class Iphone1314Lion extends StatelessWidget {
                   height: 844,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage("assets/images/Animals/background.png"),
+                      image: AssetImage("assets/images/Animals/Background.png"),
                       fit: BoxFit.cover,
                     ),
                   ),

@@ -13,7 +13,7 @@ class ReindeerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
       animalImagePath: "assets/images/Animals/Reindeer.png",
       animalName: "Reindeer",
       animalClassification: "Class: Mammalia",

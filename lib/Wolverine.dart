@@ -14,7 +14,7 @@ class WolverineScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimalScreen(
       backgroundImagePath: "assets/images/Animals/Background.png",
-      animalImagePath: "assets/images/Animals/Wolverine.png",
+      animalImagePath: "assets/images/Animals/wolverine.png",
       animalName: "Wolverine",
       animalClassification: "Class: Mammalia",
       animalDescription: """ The wolverine, also known as the glutton, carcajou, or quickhatch, is the largest land-dwelling member of the family Mustelidae. It is a muscular carnivore and a solitary animal. The wolverine has a reputation for ferocity and strength disproportionate to its size, with documented cases of it killing prey many times larger than itself.

@@ -13,7 +13,7 @@ class KangarooScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
       animalImagePath: "assets/images/Animals/Kangaroo.png",
       animalName: "Kangaroo",
       animalClassification: "Class: Mammalia",

@@ -13,8 +13,8 @@ class AligatorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
-      animalImagePath: "assets/images/Animals/aligator.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
+      animalImagePath: "assets/images/Animals/Aligator.png",
       animalName: "aligator",
       animalClassification: "Class: Reptilia",
       animalDescription: """An alligator, or colloquially known as a gator, is a large reptile belonging to the genus Alligator within the family Alligatoridae and the order Crocodilia. There are two existing species: the American alligator (A. mississippiensis) and the Chinese alligator (A. sinensis). Additionally, several extinct species of alligators have been identified through fossil records. Alligators first appeared during the late Eocene epoch, approximately 37 million years ago.

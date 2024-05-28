@@ -13,8 +13,8 @@ class KomodoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
-      animalImagePath: "assets/images/Animals/komodo.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
+      animalImagePath: "assets/images/Animals/Komodo.png",
       animalName: "Komodo Dragon",
       animalClassification: "Class: Reptilia",
       animalDescription: """The Komodo dragon (Varanus komodoensis), also known as the Komodo monitor, is a member of the monitor lizard family Varanidae and is endemic to the Indonesian islands of Komodo, Rinca, Flores, and Gili Motang. It is the largest extant species of lizard, reaching up to 3 meters (9.8 feet) in length and weighing up to 70 kilograms (150 pounds).

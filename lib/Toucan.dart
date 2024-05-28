@@ -13,7 +13,7 @@ class ToucanScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/background.png",
+      backgroundImagePath: "assets/images/Animals/Background.png",
       animalImagePath: "assets/images/Animals/Toucan.png",
       animalName: "Toucan",
       animalClassification: "Class: Aves",
