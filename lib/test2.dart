@@ -1,5 +1,6 @@
+import 'package:MuseumApp/Dinosaurs/dinosaurs.dart';
 import 'package:flutter/material.dart';
-import 'BaseAnimal.dart';
+import 'package:MuseumApp/BaseInfo.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -12,19 +13,18 @@ class TestScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AnimalScreen(
-      backgroundImagePath: "assets/images/Animals/Background.png",
-      animalImagePath: "assets/images/Animals/lion.png",
-      animalName: "Lion",
-      animalClassification: "Class: Mammalia",
-      animalDescription: """ """,
+    return DetailsScreen(
+      backgroundImagePath: "assets/images/Dinosaurs/Background.png",
+      imagePath: "assets/images/Dinosaurs/lion.png",
+      itemName: "Lion",
+      itemCategory: "",
+      itemDescription: """ """,
       imageTopPosition: 0,
       imageRightPosition: ,
       imageLeftPosition: ,
       screenHeight: ,
-      whiteContainerHeight: ,
+      containerHeight: ,
+      backScreen: DinosaurPage(),
     );
   }
 }
-
-// Similarly, create JellyfishScreen using AnimalScreen

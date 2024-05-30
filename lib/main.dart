@@ -1,12 +1,14 @@
+import 'package:MuseumApp/Dinosaurs/dinosaurs.dart';
+import 'package:MuseumApp/Planets//Planets.dart';
 import 'package:flutter/material.dart';
-import 'animals.dart';
+import 'package:MuseumApp/Animals/animals.dart';
 
 void main() {
-  runApp(const FigmaToCodeApp());
+  runApp(const MainScreen());
 }
 
-class FigmaToCodeApp extends StatelessWidget {
-  const FigmaToCodeApp({super.key});
+class MainScreen extends StatelessWidget {
+  const MainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -74,6 +76,13 @@ class Iphone1314Home extends StatelessWidget {
                 child: CategoryCard(
                   title: 'Dinosaurs',
                   imagePath: 'assets/images/home/Dinosaurs.png',
+
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => DinosaurPage()),
+                      );
+                    }
                 ),
               ),
               Positioned(
@@ -82,6 +91,12 @@ class Iphone1314Home extends StatelessWidget {
                 child: CategoryCard(
                   title: 'Planets',
                   imagePath: 'assets/images/home/Planets.png',
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => PlanetPage()),
+                      );
+                    }
                 ),
               ),
               Positioned(
