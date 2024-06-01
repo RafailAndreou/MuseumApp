@@ -28,10 +28,9 @@ Welcome to Rafail's Museum App! This app is your gateway to exploring fascinatin
 ## Feedback
 We value your feedback! If you have any suggestions, feature requests, or encounter any issues while using the app, please don't hesitate to reach out to us. Your input helps us improve the app and create a better experience for all users.
 
-## Connect with Us
+## Connect with Me
 Stay updated on the latest news, updates, and special offers by following us on social media:
-- Facebook: [link]
-- Twitter: [link]
-- Instagram: [link]
+- Facebook: [(https://www.instagram.com/stories/rafail_andreouu/)](https://www.facebook.com/rafail.herete/)]
+- Instagram: [https://www.instagram.com/stories/rafail_andreouu/]
 
 - ![Museum App Demo](https://github.com/RafailAndreou/MuseumApp/blob/master/museumapp.gif)
