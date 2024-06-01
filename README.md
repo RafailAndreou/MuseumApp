@@ -33,3 +33,5 @@ Stay updated on the latest news, updates, and special offers by following us on 
 - Facebook: [link]
 - Twitter: [link]
 - Instagram: [link]
+
+- ![Museum App Demo](https://github.com/RafailAndreou/MuseumApp/blob/master/museumapp.gif)
