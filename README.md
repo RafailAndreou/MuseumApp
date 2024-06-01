@@ -20,7 +20,7 @@ Welcome to Rafail's Museum App! This app is your gateway to exploring fascinatin
 - **Search:** Quickly find specific exhibits using the search functionality, ensuring you can easily locate information on topics of interest.
 
 ## Installation
-- You can either download the APK which is inside the lib directory or
+- You can either download the APK(museumapp.apk) (recommended) or
 - Install all the files
 - Open the main.dart file and run it
 
