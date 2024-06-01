@@ -33,7 +33,7 @@ The sleek and intuitive design of Rafail's Museum App is thanks to the remarkabl
 ## Connect with Me
 Stay updated on the latest news, updates, and special offers by following us on social media:
 - Facebook: [https://www.facebook.com/rafail.herete/](https://www.facebook.com/rafail.herete/)
-- Instagram: [https://www.instagram.com/stories/rafail_andreouu/](https://www.instagram.com/stories/rafail_andreouu/)
+- Instagram: [https://www.instagram.com/stories/rafail_andreouu/](https://www.instagram.com/rafail_andreouu/)
 
 - ![Museum App Demo](https://github.com/RafailAndreou/MuseumApp/blob/master/museumapp.gif)
 
