@@ -1,6 +1,6 @@
-# Rafail's Museum App
+# Museum App
 
-Welcome to Rafail's Museum App! This app is your gateway to exploring fascinating information about animals, dinosaurs, planets, and sculptures all in one place. Developed as a college project, this app combines Rafail's technical ability to implement a beautiful design using Flutter and the design expertise of his friend Giannis, brought to life through the Flutter framework. Whether you're a curious learner or a passionate enthusiast, this app promises to deliver an immersive experience filled with knowledge and wonder.
+Welcome to Museum App! This app is your gateway to exploring fascinating information about animals, dinosaurs, planets, and sculptures all in one place. Developed as a college project, this app combines Rafail's technical ability to implement a beautiful design using Flutter and the design expertise of his friend Giannis, brought to life through the Flutter framework. Whether you're a curious learner or a passionate enthusiast, this app promises to deliver an immersive experience filled with knowledge and wonder.
 
 ## Features
 
@@ -28,7 +28,7 @@ Welcome to Rafail's Museum App! This app is your gateway to exploring fascinatin
 We value your feedback! If you have any suggestions, feature requests, or encounter any issues while using the app, please don't hesitate to reach out to us. Your input helps us improve the app and create a better experience for all users.
 
 ## Contribution of Giannis
-The sleek and intuitive design of Rafail's Museum App is thanks to the remarkable work of Giannis, who meticulously crafted the app's interface using Figma. Giannis's design not only enhances the app's aesthetic appeal but also ensures a user-friendly experience, making it easier for users to navigate through the rich content. His attention to detail and creative vision have significantly contributed to the overall success of the app.
+The sleek and intuitive design of the Museum App is thanks to the remarkable work of Giannis, who meticulously crafted the app's interface using Figma. Giannis's design not only enhances the app's aesthetic appeal but also ensures a user-friendly experience, making it easier for users to navigate through the rich content. His attention to detail and creative vision have significantly contributed to the overall success of the app.
 
 ## Connect with Me
 Stay updated on the latest news, updates, and special offers by following us on social media:
