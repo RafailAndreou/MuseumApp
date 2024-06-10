@@ -29,7 +29,7 @@ Coexisting with early humans, woolly mammoths were hunted for food, and their bo
       imageRightPosition: 20,
       imageLeftPosition: 20,
       screenHeight: 1416,
-      containerHeight: 1029,
+      //: 1029,
       backScreen: DinosaurPage(),
     );
   }

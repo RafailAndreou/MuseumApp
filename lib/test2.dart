@@ -23,7 +23,7 @@ class TestScreen extends StatelessWidget {
       imageRightPosition: ,
       imageLeftPosition: ,
       screenHeight: ,
-      containerHeight: ,
+      //: ,
       backScreen: DinosaurPage(),
     );
   }

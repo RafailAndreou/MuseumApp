@@ -27,7 +27,7 @@ Stegosaurus gained prominence during the "Bone Wars" led by Othniel Charles Mars
       imageRightPosition: 5,
       imageLeftPosition: 5,
       screenHeight: 1416,
-      containerHeight: 1029,
+      //: 1029,
       backScreen: DinosaurPage(),
     );
   }

@@ -29,7 +29,7 @@ class Iphone1314Lion extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 390,
+          width: MediaQuery.of(context).size.width,
           height: 844,
           clipBehavior: Clip.antiAlias,
           decoration: ShapeDecoration(
@@ -44,7 +44,7 @@ class Iphone1314Lion extends StatelessWidget {
                 left: 0,
                 top: 0,
                 child: Container(
-                  width: 390,
+                  width: MediaQuery.of(context).size.width,
                   height: 844,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -87,7 +87,7 @@ class Iphone1314Lion extends StatelessWidget {
                         left: 20,
                         top: 281,
                         child: Container(
-                          width: 310,
+                          width: MediaQuery.of(context).size.width-80,
                           height: 454,
                           child: Stack(
                             children: [
@@ -95,7 +95,7 @@ class Iphone1314Lion extends StatelessWidget {
                                 left: 0,
                                 top: 25,
                                 child: Container(
-                                  width: 310,
+                                  width: MediaQuery.of(context).size.width-80,
                                   height: 429,
                                   decoration: ShapeDecoration(
                                     color: Color(0xD3D8D8D8),

@@ -16,19 +16,20 @@ class NeptuneScreen extends StatelessWidget {
     return DetailsScreen(
       backgroundImagePath: "assets/images/Planets/Background.png",
       imagePath: "assets/images/Planets/Neptune.png",
-      itemName: "Pluto",
-      itemCategory: "Age: ≈4.5 Billion Years",
-      itemDescription: """Pluto, designated as 134340 Pluto, is a dwarf planet located in the Kuiper belt, a region beyond Neptune's orbit. It's the ninth-largest known object to orbit the Sun directly and the largest trans-Neptunian object by volume, though less massive than Eris. Composed mainly of ice and rock, Pluto is much smaller than the inner planets, with roughly one-sixth the mass of Earth's moon and one-third its volume.
+      itemName: "Neptune",
+      itemCategory: "Age: 4.503 Billion Years",
+      itemDescription: """Neptune, the eighth and farthest planet from the Sun, is the fourth-largest and third-most-massive planet in the Solar System. It's named after the Roman god of the sea and has no solid surface, being primarily composed of gases and liquids. Neptune orbits the Sun every 164.8 years at a distance of 30.1 astronomical units.
 
-Pluto's orbit is moderately eccentric and inclined, ranging from 30 to 49 astronomical units from the Sun. It has five moons: Charon, Styx, Nix, Kerberos, and Hydra. Pluto and Charon are considered a binary system due to their shared orbit's barycenter. The New Horizons mission made a flyby of Pluto and its moons on July 14, 2015, providing detailed measurements and observations.
+Discovered in 1846 through mathematical predictions based on observations of Uranus, Neptune's largest moon, Triton, was found shortly after. It has 15 known moons and a faint, fragmented ring system.
 
-Discovered in 1930 by Clyde W. Tombaugh, Pluto was initially classified as the ninth planet but was later redefined as a dwarf planet by the International Astronomical Union in 2006. Despite this, some astronomers still consider Pluto and other dwarf planets as planets.
-""",
-      imageTopPosition: 40,
+Similar to Uranus, Neptune is classified as an "ice giant," containing hydrogen, helium, and ices such as water, ammonia, and methane in its atmosphere. It appears blue due to traces of methane and exhibits active weather patterns, including strong winds and dark spots.
+
+The Voyager 2 spacecraft remains the only probe to have visited Neptune, providing valuable data during its flyby in 1989. Despite being one of the coldest places in the Solar System, Neptune's atmosphere is dynamic and constantly changing.""",
+      imageTopPosition: 12,
       imageRightPosition: 50,
       imageLeftPosition: 50,
       screenHeight: 1075,
-      containerHeight: 689,
+      //: 689,
       backScreen:PlanetPage(),
     );
   }

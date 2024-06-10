@@ -27,7 +27,7 @@ Explored by uncrewed spacecraft since the late 20th century, Mars has seen numer
       imageRightPosition: 64,
       imageLeftPosition: 66,
       screenHeight: 1055,
-      containerHeight: 668,
+      //: 668,
       backScreen: PlanetPage(),
     );
   }

@@ -29,7 +29,7 @@ Venus has been significant in human culture and astronomy, often appearing as th
       imageRightPosition: 67,
       imageLeftPosition: 67,
       screenHeight: 1175,
-      containerHeight: 789,
+      //: 789,
       backScreen: PlanetPage(),
     );
   }

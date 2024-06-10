@@ -10,7 +10,6 @@ class DetailsScreen extends StatelessWidget {
   final double imageLeftPosition;
   final double imageRightPosition;
   final double screenHeight;
-  final double containerHeight;
   final Widget backScreen;
 
   const DetailsScreen({
@@ -24,7 +23,6 @@ class DetailsScreen extends StatelessWidget {
     this.imageLeftPosition = 0,
     this.imageRightPosition = 0,
     required this.screenHeight,
-    required this.containerHeight,
     required this.backScreen,
   }) : super(key: key);
 
@@ -34,16 +32,16 @@ class DetailsScreen extends StatelessWidget {
       body: ListView(
         children: [
           Center(
-            child: Container(
-              width: 390,
-              height: screenHeight,
-              clipBehavior: Clip.antiAlias,
-              decoration: ShapeDecoration(
-                color: Color(0xFFF6F9F6),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(40),
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                height: screenHeight,
+                clipBehavior: Clip.antiAlias,
+                decoration: ShapeDecoration(
+                  color: Color(0xFFF6F9F6),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(40),
+                  ),
                 ),
-              ),
               child: Stack(
                 children: [
                   Positioned.fill(
@@ -52,15 +50,14 @@ class DetailsScreen extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
-                  Positioned(
-                    top: imageTopPosition,
-                    left: imageLeftPosition,
-                    right: imageRightPosition,
-                    child: Image.asset(
-                      imagePath,
-                    ),
-                  ),
-                  // Add the arrow button in the top-left corner
+                  // Positioned(
+                  //   top: imageTopPosition,
+                  //   left: imageLeftPosition,
+                  //   right: imageRightPosition,
+                  //   child: Image.asset(
+                  //     imagePath,
+                  //   ),
+                  // ),
                   Positioned(
                     top: 16,
                     left: 16,
@@ -68,7 +65,6 @@ class DetailsScreen extends StatelessWidget {
                       icon: Image.asset('assets/images/arrow.png'), // Change to your arrow icon path
                       iconSize: 24,
                       onPressed: () {
-                        // Navigate to DetailsPage when pressed
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => backScreen),
@@ -77,56 +73,70 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    top: 300,
-                    left: 40,
-                    right: 40,
-                    child: Container(
-                      width: 310,
-                      height: containerHeight,
-                      decoration: ShapeDecoration(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        color: Color(0xD3D8D8D8),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                          left: 13,
-                          top: 11,
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                    top: imageTopPosition,
+                    left:40,
+                    right:40,
+                    child: Align(
+                        alignment: Alignment.center,
+                      child:Column(
+                        mainAxisSize: MainAxisSize.min,
                           children: [
-                            Text(
-                              itemName,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w600,
-                                fontSize: 20,
-                              ),
+                            Image.asset(
+                              imagePath,
                             ),
-                            Text(
-                              itemCategory,
-                              style: TextStyle(
-                                color: Color(0x99000000),
-                                fontWeight: FontWeight.w600,
+                            Container(
+                              margin: EdgeInsets.only(top: 20),
+                              width: MediaQuery.of(context).size.width - 80,
+                              decoration: ShapeDecoration(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                color: Color(0xD3D8D8D8),
                               ),
-                            ),
-                            SizedBox(height: 21),
-                            Text(
-                              itemDescription,
-                              style: TextStyle(
-                                color: Color(0xcc000000),
+                              child: Padding(
+                                padding: const EdgeInsets.only(
+                                  left: 13,
+                                  top: 11,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      itemName,
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 20,
+                                      ),
+                                    ),
+                                    Text(
+                                      itemCategory,
+                                      style: TextStyle(
+                                        color: Color(0x99000000),
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                    SizedBox(height: 21),
+                                    Text(
+                                      itemDescription,
+                                      style: TextStyle(
+                                        color: Color(0xcc000000),
+                                      ),
+                                    ),
+                                    SizedBox(height:32)
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
+                            )
+                        ]
+                      )
+
                     ),
-                  ),
+                  )
                 ],
               ),
-            ),
+
+            )
           ),
         ],
       ),

@@ -27,7 +27,6 @@ Living alongside dinosaurs like Allosaurus, Camarasaurus, Diplodocus, and Stegos
       imageRightPosition: 0,
       imageLeftPosition: 0,
       screenHeight: 1256,
-      containerHeight: 869,
       backScreen: DinosaurPage(),
     );
   }

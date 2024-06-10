@@ -27,7 +27,7 @@ Commonly referred to as "raptor," Velociraptor is one of the most well-known din
       imageRightPosition: 30,
       imageLeftPosition: 40,
       screenHeight: 1316,
-      containerHeight: 929,
+      //: 929,
       backScreen: DinosaurPage(),
     );
   }

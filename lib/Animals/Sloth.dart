@@ -27,7 +27,6 @@ During the Pleistocene Epoch, ground sloths, some as large as elephants, roamed 
 Sloths have low metabolism and deliberate movements, earning their name due to their slowness. Their diet consists mainly of leaves, and their sluggishness helps them avoid predators. They are adept swimmers and host symbiotic algae in their fur, which camouflages them and provides nutrients.""",
       imageTopPosition: 0,
       screenHeight:1136,
-      containerHeight: 749,
       backScreen: AnimalPage(),
     );
   }

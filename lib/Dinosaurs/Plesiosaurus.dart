@@ -25,7 +25,7 @@ As the namesake of the order Plesiosauria, Plesiosaurus played a significant rol
       imageRightPosition:5,
       imageLeftPosition:5,
       screenHeight: 1136,
-      containerHeight:749,
+      //:749,
       backScreen: DinosaurPage(),
     );
   }

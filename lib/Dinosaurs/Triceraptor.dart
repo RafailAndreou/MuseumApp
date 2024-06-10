@@ -15,8 +15,8 @@ class TriceraptorScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return DetailsScreen(
       backgroundImagePath: "assets/images/Dinosaurs/Background.png",
-      imagePath: "assets/images/Dinosaurs/Triceraptor.png",
-      itemName: "Triceraptors",
+      imagePath: "assets/images/Dinosaurs/Triceratop.png",
+      itemName: "Triceratops",
       itemCategory: "Clade: Ornithischia",
       itemDescription: """Triceratops, aptly named for its distinctive trio of facial horns, was a formidable herbivorous dinosaur that roamed western North America during the Late Cretaceous period, approximately 68 to 66 million years ago. With its robust four-legged body, massive bony frill, and formidable horns, Triceratops was among the largest ceratopsian dinosaurs, measuring up to 8-9 meters (26–30 ft) in length and weighing as much as 6–10 metric tons (6.6–11.0 short tons). Its iconic appearance and imposing stature have made it one of the most recognizable and beloved dinosaurs in the public imagination.
 
@@ -27,7 +27,7 @@ Taxonomically, Triceratops has undergone revisions over the years, with modern a
       imageRightPosition: 5,
       imageLeftPosition: 5,
       screenHeight: 1416,
-      containerHeight: 1029,
+      //: 1029,
       backScreen: DinosaurPage(),
     );
   }

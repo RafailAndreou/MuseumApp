@@ -2,7 +2,7 @@ import 'package:MuseumApp/main.dart';
 import 'package:flutter/material.dart';
 import 'lion.dart';
 import 'Tiger.dart';
-import 'aligator.dart';
+import 'alligator.dart';
 import 'Wolverine.dart';
 import 'hammerhead.dart';
 import 'komodo.dart';
@@ -50,17 +50,23 @@ class Iphone1314SignUpSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 390,
+        width: MediaQuery.of(context).size.width,
         height: 1513,
         clipBehavior: Clip.antiAlias,
         decoration: ShapeDecoration(
-          color: Color(0xFFF6F9F6),
+          color: const Color(0xFFF6F9F6),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(40),
           ),
         ),
         child: Stack(
           children: [
+            Positioned(
+              right: 0,
+              child: Image.asset(
+                  "assets/images/Animals/Animal.png"
+              ),
+            ),
             Positioned(
               top: 20,
               left: 20,
@@ -70,18 +76,12 @@ class Iphone1314SignUpSection extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MainScreen()),
+                    MaterialPageRoute(builder: (context) => const MainScreen()),
                   );
                 },
               ),
             ),
-            Positioned(
-              right: 0,
-              child: Image.asset(
-                  "assets/images/Animals/Animal.png"
-              ),
-            ),
-            Positioned(
+            const Positioned(
               top: 400,
               left: 30,
               child: Text(
@@ -93,7 +93,7 @@ class Iphone1314SignUpSection extends StatelessWidget {
                 ),
               ),
             ),
-            Positioned(
+            const Positioned(
               top: 450,
               left: 20,
               right: 20,
@@ -103,7 +103,7 @@ class Iphone1314SignUpSection extends StatelessWidget {
                   SizedBox(height: 20),
                   CustomButton(label: "Tiger", screen: TigerScreen()),
                   SizedBox(height: 20),
-                  CustomButton(label: "Aligator", screen: AligatorScreen()),
+                  CustomButton(label: "Alligator", screen: AlligatorScreen()),
                   SizedBox(height: 20),
                   CustomButton(label: "Wolverine", screen: WolverineScreen()),
                   SizedBox(height: 20),

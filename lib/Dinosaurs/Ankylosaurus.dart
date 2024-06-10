@@ -29,7 +29,6 @@ While fossils have been found in various formations, including Hell Creek and La
       imageRightPosition: 20,
       imageLeftPosition: 20,
       screenHeight: 1476,
-      containerHeight: 1089,
       backScreen: DinosaurPage(),
     );
   }

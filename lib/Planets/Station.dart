@@ -23,7 +23,7 @@ class StationScreen extends StatelessWidget {
       imageRightPosition: 30,
       imageLeftPosition: 40,
       screenHeight: 865,
-      containerHeight: 478,
+      //: 478,
       backScreen: PlanetPage(),
     );
   }

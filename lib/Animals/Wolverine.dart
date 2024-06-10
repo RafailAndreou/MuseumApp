@@ -13,7 +13,7 @@ class WolverineScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DetailsScreen(
+    return const DetailsScreen(
       backgroundImagePath: "assets/images/Animals/Background.png",
       imagePath: "assets/images/Animals/wolverine.png",
       itemName: "Wolverine",
@@ -25,7 +25,6 @@ The wolverine is primarily found in remote areas of the Northern boreal forests 
       imageRightPosition: 0,
       imageLeftPosition: 0,
       screenHeight: 936,
-      containerHeight: 549,
       backScreen: AnimalPage(),
     );
   }

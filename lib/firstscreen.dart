@@ -29,7 +29,7 @@ class Iphone13141stScreen extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 390,
+          width: MediaQuery.of(context).size.width,
           height: 844,
           clipBehavior: Clip.antiAlias,
           decoration: ShapeDecoration(

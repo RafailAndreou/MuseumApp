@@ -29,7 +29,6 @@ Jellyfish stings can injure humans, with thousands of swimmers stung annually. L
       imageRightPosition: 120,
       imageLeftPosition: 130,
       screenHeight: 1176,
-      containerHeight: 789,
         backScreen: AnimalPage()
     );
   }

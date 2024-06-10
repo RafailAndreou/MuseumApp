@@ -26,7 +26,6 @@ Koalas are iconic symbols of Australia and were depicted by Indigenous Australia
       imageTopPosition: -70,
       imageLeftPosition: 0,
       screenHeight: 1416,
-      containerHeight: 1029,
       backScreen: AnimalPage(),
     );
   }

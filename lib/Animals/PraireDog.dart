@@ -27,7 +27,6 @@ Their habitat is threatened by farming, urban development, and disease, leading 
       imageRightPosition: 82,
       imageLeftPosition: 74,
       screenHeight: 1076,
-      containerHeight: 689,
       backScreen: AnimalPage(),
     );
   }

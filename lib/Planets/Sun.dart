@@ -27,7 +27,7 @@ Through nuclear fusion, the Sun converts hydrogen into helium, releasing energy.
       imageRightPosition: 26,
       imageLeftPosition: 24,
       screenHeight: 995,
-      containerHeight: 609,
+      //: 609,
       backScreen: PlanetPage(),
     );
   }

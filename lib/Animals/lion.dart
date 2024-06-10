@@ -23,7 +23,6 @@ class LionScreen extends StatelessWidget {
       imageRightPosition: 20,
       imageLeftPosition: 20,
       screenHeight: 844,
-      containerHeight: 429,
       backScreen: AnimalPage(),
     );
   }

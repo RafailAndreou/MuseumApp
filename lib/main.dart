@@ -1,7 +1,8 @@
-import 'package:MuseumApp/Dinosaurs/dinosaurs.dart';
-import 'package:MuseumApp/Planets//Planets.dart';
+import 'package:MuseumApp/Sculptures/Scupltures.dart';
 import 'package:flutter/material.dart';
 import 'package:MuseumApp/Animals/animals.dart';
+import 'package:MuseumApp/Dinosaurs/dinosaurs.dart';
+import 'package:MuseumApp/Planets/Planets.dart';
 
 void main() {
   runApp(const MainScreen());
@@ -28,10 +29,15 @@ class MainScreen extends StatelessWidget {
 class Iphone1314Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final double screenWidth = MediaQuery.of(context).size.width;
+    final double cardWidth = 139;
+    final double totalCardWidth = 2 * cardWidth + 35;
+    final double startX = (screenWidth - totalCardWidth) / 2;
+
     return Column(
       children: [
         Container(
-          width: 390,
+          width: screenWidth,
           height: 844,
           clipBehavior: Clip.antiAlias,
           decoration: ShapeDecoration(
@@ -43,6 +49,7 @@ class Iphone1314Home extends StatelessWidget {
           child: Stack(
             children: [
               Positioned(
+                right: 20,
                 left: 20,
                 top: 128,
                 child: Container(
@@ -63,44 +70,21 @@ class Iphone1314Home extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 38,
+                left: startX,
                 top: 422,
                 child: CategoryCard(
                   title: 'Sculptures',
                   imagePath: 'assets/images/home/Sculptures.png',
-                ),
-              ),
-              Positioned(
-                left: 38,
-                top: 626,
-                child: CategoryCard(
-                  title: 'Dinosaurs',
-                  imagePath: 'assets/images/home/Dinosaurs.png',
-
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => DinosaurPage()),
+                        MaterialPageRoute(builder: (context) => SculpturePage()),
                       );
                     }
                 ),
               ),
               Positioned(
-                left: 212,
-                top: 626,
-                child: CategoryCard(
-                  title: 'Planets',
-                  imagePath: 'assets/images/home/Planets.png',
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => PlanetPage()),
-                      );
-                    }
-                ),
-              ),
-              Positioned(
-                left: 212,
+                left: startX + cardWidth + 35,
                 top: 422,
                 child: CategoryCard(
                   title: 'Animals',
@@ -109,6 +93,34 @@ class Iphone1314Home extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => AnimalPage()),
+                    );
+                  },
+                ),
+              ),
+              Positioned(
+                left: startX,
+                top: 626,
+                child: CategoryCard(
+                  title: 'Dinosaurs',
+                  imagePath: 'assets/images/home/Dinosaurs.png',
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => DinosaurPage()),
+                    );
+                  },
+                ),
+              ),
+              Positioned(
+                left: startX + cardWidth + 35,
+                top: 626,
+                child: CategoryCard(
+                  title: 'Planets',
+                  imagePath: 'assets/images/home/Planets.png',
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => PlanetPage()),
                     );
                   },
                 ),
@@ -143,7 +155,7 @@ class Iphone1314Home extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 39,
                 top: 813,
                 child: Text(
@@ -158,11 +170,11 @@ class Iphone1314Home extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 left: 33,
                 top: 34,
                 child: Text(
-                  'Hello Rafail,',
+                  'Hello User,',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.black,
@@ -174,22 +186,22 @@ class Iphone1314Home extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 300,
+                right: 20,
                 top: 24,
                 child: Container(
-                    width: 50,
-                    height: 50,
-                    decoration: ShapeDecoration(
-                      color: Color(0xFFD9D9D9),
-                      shape: OvalBorder(),
-                    ),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image : AssetImage("assets/images/home/face.png")
-                          )
+                  width: 50,
+                  height: 50,
+                  decoration: const ShapeDecoration(
+                    color: Color(0xFFD9D9D9),
+                    shape: OvalBorder(),
+                  ),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/home/Face.png"),
                       ),
-                    )
+                    ),
+                  ),
                 ),
               ),
             ],

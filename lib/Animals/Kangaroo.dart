@@ -31,7 +31,6 @@ Wild kangaroos are harvested for meat, leather, and to protect grazing land. Kan
       imageRightPosition:45,
       imageLeftPosition: 75,
       screenHeight: 1396,
-      containerHeight:1009,
       backScreen: AnimalPage(),
     );
   }

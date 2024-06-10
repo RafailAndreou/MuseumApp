@@ -27,7 +27,6 @@ Formed 4.5 billion years ago, Earth fostered life within its oceans, which event
       imageRightPosition: 70,
       imageLeftPosition: 70,
       screenHeight: 1215,
-      containerHeight:829,
       backScreen: PlanetPage(),
     );
   }

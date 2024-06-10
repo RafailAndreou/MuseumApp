@@ -23,7 +23,7 @@ class RoverScreen extends StatelessWidget {
       imageRightPosition: 66,
       imageLeftPosition: 65,
       screenHeight: 813,
-      containerHeight: 426,
+      //: 426,
       backScreen: PlanetPage(),
     );
   }

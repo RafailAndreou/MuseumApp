@@ -27,7 +27,6 @@ Mating occurs between May and August, with females laying up to 20 eggs in Septe
 Komodo dragons were first documented by Western scientists in 1910. Their impressive size and formidable reputation make them popular in zoos. In the wild, their range has been diminished by human encroachment and is further threatened by climate change, leading to their classification as Endangered by the IUCN Red List. They are protected under Indonesian law, and Komodo National Park was established in 1980 to support conservation efforts.""",
       imageTopPosition: 139,
       screenHeight: 1416,
-      containerHeight: 1029,
       backScreen: AnimalPage(),
     );
   }

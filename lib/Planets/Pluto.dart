@@ -28,7 +28,7 @@ Discovered in 1930 by Clyde W. Tombaugh, Pluto was initially classified as the n
       imageRightPosition: 50,
       imageLeftPosition: 50,
       screenHeight: 1075,
-      containerHeight: 689,
+      //: 689,
       backScreen: PlanetPage(),
     );
   }

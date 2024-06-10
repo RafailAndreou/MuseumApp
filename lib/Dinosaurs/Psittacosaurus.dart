@@ -27,7 +27,7 @@ The abundance of Psittacosaurus fossils has played a pivotal role in stratigraph
       imageRightPosition: 15,
       imageLeftPosition: 15,
       screenHeight: 1376,
-      containerHeight: 989,
+      //: 989,
       backScreen: DinosaurPage(),
     );
   }

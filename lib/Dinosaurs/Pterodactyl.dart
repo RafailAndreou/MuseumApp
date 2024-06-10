@@ -29,7 +29,7 @@ Pterodactylus coexisted with other small pterosaurs like Rhamphorhynchus, as wel
       imageRightPosition: 21,
       imageLeftPosition: 11,
       screenHeight: 1396,
-      containerHeight: 1009,
+      //: 1009,
       backScreen: DinosaurPage(),
     );
   }

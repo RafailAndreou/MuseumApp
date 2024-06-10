@@ -27,7 +27,7 @@ Beyond its scientific significance, Dilophosaurus has captured the public imagin
       imageRightPosition: 5,
       imageLeftPosition: 5,
       screenHeight: 1496,
-      containerHeight: 1109,
+      //: 1109,
       backScreen: DinosaurPage(),
     );
   }

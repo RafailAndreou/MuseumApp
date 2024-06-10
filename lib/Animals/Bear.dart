@@ -27,7 +27,6 @@ Throughout history, bears have been hunted for their meat and fur and subjected 
       imageRightPosition: 45,
       imageLeftPosition:59,
       screenHeight: 1456,
-      containerHeight:1069,
       backScreen: AnimalPage(),
     );
   }

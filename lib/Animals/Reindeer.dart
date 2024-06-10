@@ -27,7 +27,6 @@ They are the only deer species semi-domesticated on a large scale, historically 
       imageRightPosition: 115,
       imageLeftPosition: 115,
       screenHeight: 936,
-      containerHeight: 549,
       backScreen: AnimalPage(),
     );
   }

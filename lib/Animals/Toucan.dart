@@ -13,7 +13,7 @@ class ToucanScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DetailsScreen(
+    return const DetailsScreen(
       backgroundImagePath: "assets/images/Animals/Background.png",
       imagePath: "assets/images/Animals/Toucan.png",
       itemName: "Toucan",
@@ -27,7 +27,6 @@ Their behavior includes fencing and wrestling bouts with their bills, believed b
       imageRightPosition: 38,
       imageLeftPosition: 37,
       screenHeight: 1076,
-      containerHeight:689,
       backScreen: AnimalPage(),
     );
   }

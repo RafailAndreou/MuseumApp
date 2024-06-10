@@ -23,7 +23,6 @@ class HammerHead extends StatelessWidget {
 Hammerheads are found worldwide, preferring life in warmer waters along coastlines and continental shelves. Unlike most sharks, some hammerhead species will congregate and swim in large schools during the day, becoming solitary hunters at night.""",
       imageTopPosition: 0,
       screenHeight: 1036,
-      containerHeight:649,
       backScreen: AnimalPage(),
     );
   }

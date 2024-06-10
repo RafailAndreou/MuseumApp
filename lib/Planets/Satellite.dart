@@ -23,7 +23,7 @@ class SatelliteScreen extends StatelessWidget {
       imageRightPosition: 30,
       imageLeftPosition: 40,
       screenHeight: 875,
-      containerHeight: 488,
+      //: 488,
       backScreen: PlanetPage(),
     );
   }

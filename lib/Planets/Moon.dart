@@ -27,7 +27,7 @@ Historically, the Moon has influenced various aspects of human culture and explo
       imageRightPosition: 65,
       imageLeftPosition: 65,
       screenHeight: 975,
-      containerHeight: 588,
+      //: 588,
       backScreen: PlanetPage(),
     );
   }

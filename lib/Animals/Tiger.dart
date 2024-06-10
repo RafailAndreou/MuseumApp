@@ -13,7 +13,7 @@ class TigerScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DetailsScreen(
+    return const DetailsScreen(
       backgroundImagePath: "assets/images/Animals/Background.png",
       imagePath: "assets/images/Animals/Tiger.png",
       itemName: "Tiger",
@@ -26,7 +26,6 @@ class TigerScreen extends StatelessWidget {
       imageLeftPosition: 40,
       imageRightPosition: 40,
       screenHeight: 1196,
-      containerHeight: 809,
       backScreen: AnimalPage(),
     );
   }

@@ -29,7 +29,7 @@ Beyond its ecological role, T. rex has captured the imagination of people worldw
       imageRightPosition: 20,
       imageLeftPosition: 20,
       screenHeight: 1516,
-      containerHeight: 1129,
+      //: 1129,
       backScreen: DinosaurPage(),
     );
   }

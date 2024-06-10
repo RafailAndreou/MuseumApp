@@ -27,7 +27,6 @@ Their most notable trait is their symbiotic relationship with sea anemones. Clow
       imageRightPosition:47,
       imageLeftPosition: 63,
       screenHeight: 1076,
-      containerHeight:689,
       backScreen: AnimalPage(),
     );
   }

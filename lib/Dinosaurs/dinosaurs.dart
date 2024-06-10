@@ -41,7 +41,7 @@ class Iphone1314SignUpSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 390,
+        width: MediaQuery.of(context).size.width,
         height: 1189,
         clipBehavior: Clip.antiAlias,
         decoration: ShapeDecoration(

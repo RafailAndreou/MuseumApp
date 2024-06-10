@@ -27,7 +27,7 @@ Discovered in 1781 by William Herschel, Uranus was named after the Greek god Ura
       imageRightPosition: 65,
       imageLeftPosition: 65,
       screenHeight: 1035,
-      containerHeight: 648,
+      //: 648,
       backScreen: PlanetPage(),
     );
   }

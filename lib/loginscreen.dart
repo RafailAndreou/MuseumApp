@@ -29,7 +29,7 @@ class Iphone1314LogInSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 390,
+        width: MediaQuery.of(context).size.width,
         height: 844,
         clipBehavior: Clip.antiAlias,
         decoration: ShapeDecoration(
