@@ -22,7 +22,8 @@ Welcome to Museum App! This app is your gateway to exploring fascinating informa
 ## Installation
 - You can either download the APK(app-release.apk) (recommended) or
 - Install all the files
-- Open the main.dart file and run it
+- Open the main.dart file and run it(android studio)
+- if you find an error you might have to change the folder where all the files are located to museumapp
 
 ## Feedback
 We value your feedback! If you have any suggestions, feature requests, or encounter any issues while using the app, please don't hesitate to reach out to us. Your input helps us improve the app and create a better experience for all users.
