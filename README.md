@@ -20,7 +20,7 @@ Welcome to Museum App! This app is your gateway to exploring fascinating informa
 - **Search:** Quickly find specific exhibits using the search functionality, ensuring you can easily locate information on topics of interest.
 
 ## Installation
-- You can either download the APK(app-release.apk) (recommended) or
+- You can either download the APK(app-release.apk) to run it on your android device or
 - Install all the files
 - Open the main.dart file and run it(android studio)
 - if you find an error you might have to change the folder where all the files are located to museumapp
