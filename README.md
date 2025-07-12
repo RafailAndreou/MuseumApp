@@ -38,4 +38,4 @@ Stay updated on the latest news, updates, and special offers by following us on 
 
 - ![Museum App Demo](https://github.com/RafailAndreou/MuseumApp/blob/master/museumapp.gif)
 
-You can check out more of Giannis's work on his GitHub profile: [JohnnyD3r](https://github.com/JohnnyD3r).
+You can check out more of Giannis's work on his GitHub profile: [derventzis](https://github.com/derventzis).
